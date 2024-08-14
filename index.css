@@ -34,10 +34,48 @@
     font-style: normal;
   }
 
+* {
+  box-sizing: border-box; 
+}
+  
+
 body {
     margin: 0;
     scroll-behavior: smooth;
   }
+
+h1{
+  font-family: "Gupter", serif;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 100%;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Gupter", serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 120%;
+  margin: 0;
+}
+
+h4 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  margin: 0;
+}
+
+p {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  margin: 0;
+}
+
 
 .navbar {
     display: flex;
@@ -99,30 +137,71 @@ body {
   height: 100%;
 }
 
-h1{
-  font-family: "Gupter", serif;
-  font-weight: 400;
-  font-size: 60px;
-  line-height: 100%;
-}
 
 .main__content h1 {
   width: 522px;
   color: #F5EB0A;
 }
 
-p {
-  font-family: "Barlow", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  color: white;
-  line-height: 140%;
+.main__content p {
 
+  width: 305px;
+  position: absolute;
+  right: 13%;
+  bottom: 80px;
+  color: white
 }
 
-.main__content p {
-  padding-left: 65.7%;
-  width: 21.2%;
-  position: absolute;
-  bottom: 80px;
+.our-goal {
+  padding: 60px 80px 120px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  gap: 60px;
+}
+
+.our-goal p {
+  width: 480px;
+  font-size: 18px;
+}
+
+.what-we-do {
+  background-color: #F5EB0A;
+  display: flex;
+}
+
+.what-we-do__img {
+  background-size: cover;
+  background-image: url('resources/images/what-we-do.png');
+}
+
+.what-we-do__content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 60px;
+  gap: 160px;
+  min-width: 560px;
+}
+
+.what-we-do__img, .what-we-do__content {
+  flex-basis: 50%; /* Ensures equal width */
+}
+
+.descriptions {
+  display: grid;
+  gap: 60px;
+  margin: 0 auto;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.descriptions-item {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+}
+
+.descriptions-item p {
+  opacity: 70%;
 }
