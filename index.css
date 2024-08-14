@@ -1,0 +1,128 @@
+.barlow-regular {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .barlow-medium {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .gupter-regular {
+    font-family: "Gupter", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .gupter-medium {
+    font-family: "Gupter", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .gupter-bold {
+    font-family: "Gupter", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+    
+  .galdeano-regular {
+    font-family: "Galdeano", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body {
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+
+.navbar {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    justify-content: space-between;
+    height: 72px;
+}
+
+.navbar .nav-links {
+    display: flex;
+    gap: 56px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 0px 80px;
+}
+
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.navbar .nav-links a:hover {
+    color: #F5EB0A;
+}
+
+.navbar .logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navbar .logo img {
+    height: 24px;
+}
+
+.navbar .left-links {
+    flex-grow: 1;
+}
+
+.main {
+  background-size: cover;
+  background-position: center;
+  height: 720px;
+  background-image: url('resources/images/bg_img.png');
+}
+
+.main__content {
+  padding: 0px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+h1{
+  font-family: "Gupter", serif;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 100%;
+}
+
+.main__content h1 {
+  width: 522px;
+  color: #F5EB0A;
+}
+
+p {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  line-height: 140%;
+
+}
+
+.main__content p {
+  padding-left: 65.7%;
+  width: 21.2%;
+  position: absolute;
+  bottom: 80px;
+}
