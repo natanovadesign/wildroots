@@ -205,3 +205,73 @@ p {
 .descriptions-item p {
   opacity: 70%;
 }
+
+.team {
+  background-color: #F3F2E5;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 60px 80px 120px 80px;
+  gap: 60px;
+
+}
+
+.team-content {
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.team-item {
+  flex-basis: 23%; /* Each member takes up about a quarter of the row */
+  margin-bottom: 20px;
+}
+
+.team-item img{
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+.second-title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  padding: 120px 10%;
+  color: #2A1F0F;
+}
+
+footer {
+  background-color: #231F19;
+  padding: 60px 80px 120px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 320px;
+  gap: 60px;
+
+}
+
+footer img {
+  width: 220px;
+}
+
+footer p {
+  color: white;
+}
+
+footer h4 {
+  color:#F5EB0A;
+  padding-bottom: 4px;
+}
+
+.footer__content {
+  display: flex;
+  gap: 20px;
+}
+
+.footer__item {
+  width: 197px;
+}
